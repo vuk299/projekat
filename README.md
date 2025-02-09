@@ -2,6 +2,7 @@
 http://localhost:8080/swagger/index.html
 
 ## build Docker image 
+cd ./projekat_API
 docker build -t <image-name> .
 
 ## run Docker container 
