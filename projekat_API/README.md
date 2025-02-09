@@ -1,0 +1,8 @@
+﻿## Swagger url 
+http://localhost:8080/swagger/index.html
+
+## build Docker image 
+docker build -t <image-name> .
+
+## run Docker container 
+docker run -p 8080:8080 <container-name> <image-name>

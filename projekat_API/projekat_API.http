@@ -1,0 +1,32 @@
+### Testiranje PalindromeController-a
+POST http://localhost:8080/api/palindrome
+Content-Type: application/json
+
+24842 
+
+
+### Testiranje MazeController-a
+POST http://localhost:8080/api/maze
+Content-Type: application/json
+
+{
+    "maze": [
+        [0, 0, 1, 0],
+        [1, 0, 1, 0],
+        [0, 0, 0, 0]
+    ],
+    "startX": 0,
+    "startY": 0,
+    "endX": 2,
+    "endY": 3
+}
+
+### Testiranje FindCombinationController-a
+POST http://localhost:8080/api/combinations
+Content-Type: application/json
+
+{
+    "a": [5, 10.5, 4, 3],
+    "b": [5, 2, 4, 6.5],
+    "s": 17.5
+}
