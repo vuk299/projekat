@@ -7,4 +7,4 @@ cd ./projekat_API
 docker build -t \<image-name\> .
 
 ## run Docker container 
-docker run -p 8080:8080 \<container-name\> \<image-name\>
+docker run -p 8080:8080 --name \<container-name\> \<image-name\>
